@@ -2,7 +2,7 @@ package model.tax;
 
 import model.profit.Profit;
 
-public abstract class Tax implements Comparable<Tax> {
+public class Tax implements Comparable<Tax> {
     private String taxName;
     private double taxPersent;
     private Profit profit;
